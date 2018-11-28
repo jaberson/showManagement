@@ -1,0 +1,106 @@
+.canvas-area {
+    &>div {
+        width: 100%;
+    }
+    &>div:nth-child(2) {
+        flex: auto;
+        background-color: #E6E6E6;
+        position: relative;
+        overflow-y: auto;
+    }
+}
+
+.canvas-hon {
+    width: 90%;
+    margin: auto;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    box-shadow: 0 0 30px #B4AFAF;
+    background-repeat: repeat;
+    max-width: 950px;
+}
+
+.text-right {
+    margin-left: 8px;
+}
+
+.canvas-elements {
+    flex-wrap: wrap;
+    padding: 3px 10px;
+    .el-button {
+        padding: 9px 12px;
+    }
+    .el-button+.el-button,
+    .el-button.is-loading span {
+        margin-left: 0;
+    }
+    .img24 {
+        background-image: url("../../../assets/image/show/showAdd-icons.png");
+        width: 22px;
+        height: 24px;
+    }
+}
+
+.imgDiv-img {
+    background-position: -118px 3px;
+}
+
+.imgDiv-txt {
+    background-position: -150px 1px;
+}
+
+.imgDiv-pdf {
+    background-position: -179px 1px;
+}
+
+.imgDiv-audio {
+    background-position: -329px 2px;
+}
+
+.imgDiv-video {
+    background-position: -88px 3px;
+}
+
+.imgDiv-clock {
+    background-position: -299px 2px;
+}
+
+.imgDiv-weather {
+    background-position: -210px 0px;
+}
+
+.imgDiv-countdown {
+    background-position: -359px 1px;
+}
+
+.imgDiv-html {
+    background-position: -269px 0px;
+}
+
+.imgDiv-videoin {
+    background-position: -60px 3px;
+}
+
+.imgDiv-onair {
+    background-position: -239px 1px;
+}
+
+.imgDiv-pop {
+    background-position: -29px 2px;
+}
+
+.imgDiv-queue {
+    background-position: -419px 1px;
+}
+
+.imgDiv-capture {
+    background-position: -389px 2px;
+}
+
+.imgDiv-button {
+    background-position: 0 0;
+}

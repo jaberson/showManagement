@@ -1,0 +1,13 @@
+.select-tree{
+    // &.el-select-dropdown__item.selected.hover{
+    //     background-color:#fff!important;
+    // }
+    // &.el-select-dropdown__item.selected{
+    //     background-color:#fff!important;
+    // }
+    &.el-select-dropdown__item{
+        height: auto!important;
+        padding:13px 0 0!important;
+        background-color:#fff!important;
+    }
+}

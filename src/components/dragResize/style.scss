@@ -1,0 +1,120 @@
+
+.dragresize{
+    z-index: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: absolute;
+    background-color: #F2F2F2;
+    overflow: hidden;
+    border:1px solid #000;
+}
+.dragre-current{
+   border-color: #FF672B;
+}
+.window-move{
+    margin:1px;
+    width: calc(100% - 2px);
+    height: calc(100% - 2px);
+    text-align: center;
+    line-height: 100%;
+    cursor: pointer;
+}
+.window-name{
+    position: absolute;
+    width: 50%;
+    height:30px;
+    line-height: 30px;
+    text-align: center;
+    margin:auto;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+.ui-resizable-handle {
+    position: absolute;
+    font-size: 0.1px;
+    display: block;
+    background-color: red;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    z-index: 90;
+}
+
+.ui-resizable-n {
+    cursor: n-resize;
+    height: 7px;
+    width: 100%;
+    /*top: -5px;*/
+    top: -3px;
+    left: 0;
+}
+
+.ui-resizable-s {
+    cursor: s-resize;
+    height: 7px;
+    width: 100%;
+    /*bottom: -5px;*/
+    bottom: -3px;
+    left: 0;
+}
+
+.ui-resizable-e {
+    cursor: e-resize;
+    width: 7px;
+    /*right: -5px;*/
+    right: -3px;
+    top: 0;
+    height: 100%;
+}
+
+.ui-resizable-w {
+    cursor: w-resize;
+    width: 7px;
+    /*left: -5px;*/
+    left: -3px;
+    top: 0;
+    height: 100%;
+}
+
+.ui-resizable-se {
+    cursor: se-resize;
+    width: 12px;
+    height: 12px;
+    /*right: 1px;
+    bottom: 1px;*/
+    right: -3px;
+    bottom: -3px;
+}
+
+.ui-resizable-sw {
+    cursor: sw-resize;
+    width: 9px;
+    height: 9px;
+    /*left: -5px;
+    bottom: -5px;*/
+    left: -3px;
+    bottom: -3px;
+}
+
+.ui-resizable-nw {
+    cursor: nw-resize;
+    width: 9px;
+    height: 9px;
+    /*left: -5px;
+    top: -5px;*/
+    left: -3px;
+    top: -3px;
+}
+
+.ui-resizable-ne {
+    cursor: ne-resize;
+    width: 9px;
+    height: 9px;
+    /*right: -5px;
+    top: -5px;*/
+    right: -3px;
+    top: -3px;
+}

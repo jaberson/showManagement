@@ -1,0 +1,47 @@
+#app .flex-row-between .module-title {
+    height: auto;
+    width: auto;
+    display: inline-block;
+}
+
+.submit-area {
+    width: 180px;
+    flex: none;
+}
+
+.head-form {
+    margin: 20px 15px 0 10px;
+    .el-form-item.inline-item {
+        margin-right: 0;
+    }
+}
+
+.main-contents-top {
+    form {
+        min-width: 1160px;
+    }
+}
+
+.main-contents-top {
+    border-bottom: 1px solid #DFDBDB;
+}
+
+.main-contents-bottom {
+    display: flex;
+    align-items: stretch;
+    height: calc(100vh - 222px);
+    &>div:nth-child(1) {
+        border-right: 1px solid #DFDBDB;
+        width: calc(100% - 400px);
+        min-width: 800px;
+    }
+    .config-area {
+        flex: auto;
+        overflow: auto;
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
